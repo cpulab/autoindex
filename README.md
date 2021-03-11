@@ -8,5 +8,5 @@ docker run -d \
     -e refresh=<minutes with m> # Auto index every XX minutes. Format must be "60m"
     -v <directory to index>:/data:ro # Directory containing the file to index
     -v <database location>:/database # Location of the sqlite database
-    cpulab/autoindex:latest
+    cpulabio/autoindex:latest
 ```
